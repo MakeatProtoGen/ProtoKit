@@ -1,7 +1,7 @@
 # ProtoKit Library
-These are best compatible with the ProtoKit - Iot and WSN Node.
+These are best compatible with the ProtoKit - IoT Node and WSN Node.
 
-Using ProtoKit libraries one can get a basic information regarding interfacing of Sensors and Actuators with microcontroller and can get started with IoT cloud platforms such as Firebase and Adafruit.
+Using ProtoKit libraries one can get a basic information regarding interfacing Sensors and Actuators with microcontroller and can get started with IoT cloud platforms such as Firebase and Adafruit.
 
 # Prerequisites
 # Hardware
