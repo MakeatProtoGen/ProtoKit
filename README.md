@@ -15,6 +15,6 @@ Using ProtoKit libraries one can get a basic information regarding interfacing S
 - [Adafruit MQTT Library](https://github.com/adafruit/Adafruit_MQTT_Library)
 
 # Creating Cloud Dashboards
-- [Firebase](https://github.com/proto-gen/ProtoKit/blob/master/ProtoKit/Firebase/Firebase%20Installation.pdf) 
+- [Firebase](https://github.com/proto-gen/ProtoKit/blob/master/ProtoKit/Firebase/README.md) 
 
 - [Adafruit](https://github.com/proto-gen/ProtoKit/blob/master/ProtoKit/AdaFruit_Mqtt_Cloud/Adafruit%20Installation.pdf) 
