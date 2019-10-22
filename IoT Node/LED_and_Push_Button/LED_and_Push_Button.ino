@@ -7,7 +7,7 @@ int buttonstate=0; // Initialize buttonstate to 0
 void setup() 
 {
   Serial.begin(9600); // Baud rate for serial communication
-  pinMode(P.SW_1,INPUT);//To configure pushbutton as INPUT pin
+  pinMode(D5,INPUT);//To configure pushbutton as INPUT pin
   pinMode(P.Led_1,OUTPUT);//To configure pushbutton as INPUT pin
   pinMode(P.Led_2,OUTPUT);//To configure pushbutton as INPUT pin
   pinMode(P.Led_3,OUTPUT); // To configure LED pin as OUTPUT pin
