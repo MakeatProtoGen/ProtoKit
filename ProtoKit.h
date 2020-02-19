@@ -6,7 +6,9 @@
 #define PROTOKIT_H
 
 #define WSN_Node 1
-#define IoT_Node 2
+#define IoT_Node_V1_0 2
+#define IoT_Node_V0_9 3
+#define IoT_Node_V1_1 4
 
 #include "Arduino.h"
 

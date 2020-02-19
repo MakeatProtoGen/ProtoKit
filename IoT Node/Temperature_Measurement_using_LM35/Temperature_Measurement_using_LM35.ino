@@ -1,13 +1,15 @@
 #include "ProtoKit.h"
 
-ProtoKit P(IoT_Node);
+// ProtoKit P(IoT_Node_V1_0);
+ProtoKit P(IoT_Node_V1_1);
+// ProtoKit P(IoT_Node_V0_9);
 
 int val;
 
 void setup()
 {
-  Serial.begin(9600);
-  pinMode(P.Led_1,OUTPUT);
+  Serial.begin(9600); // Baud rate for serial communication
+  pinMode(P.Led_1,OUTPUT); // To configure LED pin as OUTPUT pin
 }
 
 void loop()
@@ -23,16 +25,16 @@ void loop()
   Serial.println();
   delay(1000);
 
-/*
-  if(cel<30)
-  {
-    digitalWrite(P.Led_1,HIGH);
-  }
-  else
-  {
-    digitalWrite(P.Led_1,LOW);
-  }
-*/
+
+  // if(cel<30)
+  // {
+  //   digitalWrite(P.Led_1,HIGH);
+  // }
+  // else
+  // {
+  //   digitalWrite(P.Led_1,LOW);
+  // }
+
 
 }
 

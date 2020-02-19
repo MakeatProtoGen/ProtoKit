@@ -12,9 +12,10 @@ Using ProtoKit libraries one can get a basic information regarding interfacing S
 - Arduino - [Mac](https://www.arduino.cc/en/Guide/MacOSX)/[Windows](https://www.arduino.cc/en/Guide/Windows)/[Linux](https://www.arduino.cc/en/Guide/Linux)
 - [ESP8266 Board Manager](https://github.com/esp8266/Arduino)
 - [Firebase Arduino Library](https://github.com/FirebaseExtended/firebase-arduino)
+- [Arduino Json Library Version 5.x](https://github.com/bblanchon/ArduinoJson/tree/5.x)
 - [Adafruit MQTT Library](https://github.com/adafruit/Adafruit_MQTT_Library)
 
 # Creating Cloud Dashboards
-- [Firebase](https://github.com/proto-gen/ProtoKit/blob/master/ProtoKit/Firebase/README.md) 
+- [Firebase](https://github.com/MakeatProtoGen/ProtoKit/tree/master/Firebase/README.md) 
 
-- [Adafruit](https://github.com/proto-gen/ProtoKit/blob/master/ProtoKit/AdaFruit_Mqtt_Cloud/README.md) 
+- [Adafruit](https://github.com/MakeatProtoGen/ProtoKit/tree/master/AdaFruit_Mqtt_Cloud/README.md) 

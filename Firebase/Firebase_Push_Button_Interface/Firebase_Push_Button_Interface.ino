@@ -10,7 +10,9 @@
 #define WIFI_PASSWORD "PASSWORD"
 
 // Initialize ProtoKit IoT Node
-ProtoKit P(IoT_Node);
+// ProtoKit P(IoT_Node_V1_0);
+ProtoKit P(IoT_Node_V1_1);
+// ProtoKit P(IoT_Node_V0_9);
 
 void setup() {
   Serial.begin(9600);
@@ -44,9 +46,29 @@ void loop() {
   SW3 = digitalRead(P.SW_3); // Read present Led_3 state
 
   Firebase.setInt("SW_1", SW1); //Update the current state of the SW1 in Firebase Cloud
+        // handle error
+      if (Firebase.failed()) {
+          Serial.print("SW_1 update failed:");
+          Serial.println(Firebase.error());  
+          return;
+      }
+
   Firebase.setInt("SW_2", SW2); //Update the current state of the SW2 in Firebase Cloud
+        // handle error
+      if (Firebase.failed()) {
+          Serial.print("SW_2 update failed:");
+          Serial.println(Firebase.error());  
+          return;
+      }
+
   Firebase.setInt("SW_3", SW3); //Update the current state of the SW3 in Firebase Cloud
-  
+        // handle error
+      if (Firebase.failed()) {
+          Serial.print("SW_3 update failed:");
+          Serial.println(Firebase.error());  
+          return;
+      }
+
   delay(100); // Update after every 100 milliSeconds
 
 }
